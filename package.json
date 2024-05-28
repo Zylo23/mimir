@@ -1,12 +1,12 @@
 {
-    "name": "mimir",
+    "name": "mimir-db",
     "version": "0.0.0",
-    "description": "Mimir is a simple in-memory database library for JavaScript/TypeScript applications.",
+    "description": "Mimir DB is a simple in-memory database library for JavaScript/TypeScript applications.",
     "license": "MIT",
     "author": "Zylo23 <pyyupsk@proton.me>",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Zylo23/mimir.git"
+        "url": "git+https://github.com/Zylo23/mimir-db.git"
     },
     "main": "dist/index.js",
     "module": "dist/index.mjs",

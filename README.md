@@ -1,27 +1,27 @@
-# Mimir
+# Mimir DB
 
-Mimir is a simple in-memory database library for JavaScript/TypeScript applications. It provides a simple API for creating tables, inserting rows, selecting rows, updating rows, and deleting rows.
+Mimir DB is a simple in-memory database library for JavaScript/TypeScript applications. It provides a simple API for creating tables, inserting rows, selecting rows, updating rows, and deleting rows.
 
 ## Installation
 
-To install Mimir, you can use npm or yarn:
+To install Mimir DB, you can use npm or yarn:
 
 ```bash
-npm install mimir
+npm install mimir-db
 ```
 
 or
 
 ```bash
-yarn add mimir
+yarn add mimir-db
 ```
 
 ## Usage
 
-Here's a simple example of how to use Mimir:
+Here's a simple example of how to use Mimir DB:
 
 ```typescript
-import { Database } from 'mimir';
+import { Database } from 'mimir-db';
 
 const db = new Database();
 
@@ -72,4 +72,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-Mimir is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+Mimir DB is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
