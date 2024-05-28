@@ -1,0 +1,24 @@
+{
+    "arrowParens": "avoid",
+    "bracketSameLine": false,
+    "bracketSpacing": true,
+    "jsonRecursiveSort": true,
+    "overrides": [
+        {
+            "files": ["*.yml"],
+            "options": {
+                "parser": "yaml",
+                "tabWidth": 2
+            }
+        }
+    ],
+    "plugins": [
+        "prettier-plugin-sort-json",
+        "prettier-plugin-package-perfection",
+        "@ianvs/prettier-plugin-sort-imports"
+    ],
+    "printWidth": 120,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 4
+}
